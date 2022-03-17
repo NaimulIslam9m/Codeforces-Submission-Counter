@@ -116,7 +116,7 @@ def main():
 
             conn.commit() # commit changes
 
-            if page_no % 20 == 0:
+            if page_no % 2 == 0:
                 print_output(cur)
 
             page_no += 1
@@ -127,9 +127,10 @@ def main():
 
             # sleep(4) # sleep 4 seconds
         else:
-            if page_no % 20 != 1:
+            if page_no % 2 != 1:
                 print_output(cur)
 
+        cur.execute("DROP TABLE IF EXISTS contest;")
         cur.close() # close the cursor
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
