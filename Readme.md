@@ -1,5 +1,5 @@
 
-# CFTracer
+# Codeforces Submission Counter
 
 A command line utility for checking real time submission count of each problem according to rank of participants
 
