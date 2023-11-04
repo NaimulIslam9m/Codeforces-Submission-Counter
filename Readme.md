@@ -26,7 +26,7 @@ database=codeforces
 user=postgres
 password=<<YOUR postgres USER PASSWORD>>
 ```
-## Demo
+## Live Preview
 
 https://user-images.githubusercontent.com/52814980/158520841-11fe1a92-c80a-41ab-bb4a-c93c0d26ed47.mp4
 
